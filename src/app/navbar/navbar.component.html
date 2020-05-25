@@ -1,0 +1,26 @@
+<!-- <div class="navbar">
+  <div class="navbar-item">
+    Home
+  </div>
+  <div class="navbar-item">
+    Task Manager
+    <a [routerLink]="['taskmanager']" [routerLinkActive]="active">Crisis Center</a>
+    <!-- <a routerLink="/taskmanager" routerLinkActive="active">Task Manager</a> -->
+  <!-- </div>
+  <div class="">
+  </div>
+  <div class="navbar-item">
+    {{loggedInUser}}
+    <button>Log Out</button>
+  </div>
+</div> -->
+
+<div>
+  <nav class='navbar navbar-expand navbar-light bg-light'>
+    <!-- <div class='logo'>Demo Site Logo Here</div> -->
+    <ul class='nav nav-pills menu-item'>
+      <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/welcome']">Home</a></li>
+      <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/taskmanager']">Task Manager</a></li>
+    </ul>
+  </nav>
+</div>

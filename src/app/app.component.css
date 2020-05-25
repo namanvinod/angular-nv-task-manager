@@ -1,0 +1,18 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html, body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-break: 1.5em;
+}
+
+p {
+  font-family: Lato;
+}
+
+.form-border {
+  margin: 10 10 10 10
+}

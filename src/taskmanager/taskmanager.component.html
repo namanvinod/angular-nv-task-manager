@@ -1,0 +1,20 @@
+<div style="margin-top: 50px">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <!-- <a class="nav-link active" href="">Add Task</a> -->
+      <a class="nav-link" routerLinkActive='active' [routerLink]="['/task/create']">Add Task</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="">Add Project</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLinkActive='active' [routerLink]="['/user/create']">Add User</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" disabled href="#">View Tasks</a>
+    </li>
+  </ul>
+</div>
+<div>
+  <router-outlet name="taskManagerRouter"></router-outlet>
+</div>
